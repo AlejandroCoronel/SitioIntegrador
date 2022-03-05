@@ -2,7 +2,7 @@
 font-family: 'Open Sans', sans-serif;
 font-family: 'Oswald', sans-serif;*/
 body{
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans ', sans-serif;
     font-size: 16px;
     line-height: 20px;
 }
@@ -35,7 +35,7 @@ nav ul{
 
 nav ul li{
     display: inline-block;
-    width: 16.3%;
+    width: 16%;
 }
 
 nav ul li a{
@@ -224,3 +224,22 @@ h2{
     float: right;
 }
 /*fin servicios*/
+
+/*inicio galeria*/
+
+.galeria .foto{
+    display: inline-block;
+    width: 18%;
+    float: left;
+    margin: 1em 0 1em 2.5%;
+    border: 1px solid #ddd;
+    padding: 0.3em;
+    box-sizing: border-box;
+}
+
+.galeria .foto img{
+    display: block;
+    width: 100%;
+}
+
+/*fin galeria*/
