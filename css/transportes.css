@@ -242,4 +242,66 @@ h2{
     width: 100%;
 }
 
+.galeria .foto:nth-child(5n+1){
+    margin-left: 0;
+    border-color: red;
+}
+
 /*fin galeria*/
+
+/*inicio contacto*/
+
+.columna{
+    width: 50%;
+    box-sizing: border-box;
+    padding: 0.6em;
+}
+
+.columna.left{
+    border-right: 1px solid gray;
+}
+
+.columna.right p{
+    font-size: 0.9em;
+}
+
+.columna.right ul li{
+    font-size: 0.8em;
+}
+
+.formulario label{
+    vertical-align: top;
+    width: 20%;
+    display: inline-block;
+}
+
+.formulario input,
+.formulario textarea{
+    background-color: #ddd;
+    border-radius: 5px;
+    border: 1px solid #999;
+    padding: 0.4em 0.6em;
+    font-size: 0.8em;
+    width: 70%;
+}
+
+.formulario input[type="submit"]{
+    background-color: #6da9ed;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0, 0.4);
+    color: white;
+    font-size: 1em;
+    width: auto;
+    cursor: pointer;
+    
+}
+
+.formulario textarea{
+    height: 10em;
+    resize: none;
+}
+
+.formulario .acciones{
+    text-align: right;
+    padding-right: 2em;
+}
+/*fin contacto*/
